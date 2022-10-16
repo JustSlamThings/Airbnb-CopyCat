@@ -5,26 +5,21 @@ body  {
 
 }
 
-
+hr {
+    opacity: 60%;
+}
 .container {
-    display: flex;
-    flex-wrap: row;
     justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    display: block;
+    top: 0px;
+    background-color: white;
 
 }
 #nav_bar_filter{   
     background-color: white;
     border-radius: 100%;
-}
-
-*span  {
-    background-color: white;
-    font-size: smaller;
-    align-content: center;
-    justify-content: space;
-    position: sticky;
-    top: 0;
-    z-index: 1;
 }
 tr{
     display: flex;
@@ -44,4 +39,13 @@ td{
 .card img{
     width: 170px;
     border-radius: 5%;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between ;
+
 }
